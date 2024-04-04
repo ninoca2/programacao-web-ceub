@@ -34,3 +34,14 @@ function converter() {
     //console.log(moedaDestino);
 
 }
+
+function inverter(){
+    let moeda1 = document.getElementById("moeda1").value;
+    let moeda2 = document.getElementById("moeda2").value;
+
+    document.getElementById("moeda1").value = moeda2;
+    document.getElementById("moeda2").value = moeda1;
+
+    console.log(moeda1);
+    console.log(moeda2);
+}
